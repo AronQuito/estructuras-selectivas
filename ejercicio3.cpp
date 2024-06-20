@@ -4,6 +4,8 @@ using namespace std;
 int main(){
     int a,b,c;
     double d,x1,x2;
+    cout<<"Verificador de ecuaciones cuadraticas!"<<endl;
+    cout<<"ECUACION BASE : a(x^2) + bx + c"<<endl<<endl;
     cout<<"Introduce los a,b,c: "; cin>>a>>b>>c;
     d=pow(b,2)-4*a*c;
     if(d>=0){
